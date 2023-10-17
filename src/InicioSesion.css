@@ -1,0 +1,65 @@
+/* Estilos para el contenedor que centra el formulario de inicio de sesión */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #9accff; /* Cambia este color según tus preferencias */
+}
+
+/* Estilos para el formulario de inicio de sesión */
+.login-form {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #52b4ff;
+  text-align: center; /* Alinea el formulario al centro */
+}
+
+/* Estilos para los campos de entrada */
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  flex: 1; /* El campo de texto de usuario y contraseña ocupará el mismo espacio */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #119AFF;
+  border-radius: 3px;
+}
+
+/* Estilos para el botón */
+.button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1e00ff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px; /* Añade espacio entre el botón y los campos de entrada */
+}
+
+/* Estilos para el botón al hacer hover */
+.button:hover {
+  background-color: #55a1f3;
+}
+
+/* Estilos para el botón "Mostrar Contraseña" */
+.mostrar-contrasena {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Estilos para el botón "Mostrar Contraseña" al hacer hover */
+.mostrar-contrasena:hover {
+  text-decoration: none;
+}

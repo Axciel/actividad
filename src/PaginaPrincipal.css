@@ -1,0 +1,44 @@
+/* PaginaPrincipal.css */
+
+/* Estilos para el botón del menú hamburguesa */
+button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Estilos para el menú hamburguesa abierto */
+.menu-hamburguesa.abierto {
+  transform: translateX(0);
+}
+
+/* Estilos para el ícono del menú hamburguesa */
+.icono-hamburguesa {
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Estilos para los elementos del menú */
+.elementos-menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: -200px; /* Empieza oculto */
+  height: 100%;
+  width: 200px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  transition: transform 0.3s ease-in;
+}
+
+/* Estilos para los elementos del menú */
+.elementos-menu p {
+  margin: 10px 0;
+}
+
+/* Agrega más estilos según tus necesidades */
+
